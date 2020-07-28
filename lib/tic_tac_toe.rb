@@ -105,9 +105,8 @@ end
     
  
   def play
-    counter = 0
     until over?
-    counter == 9
+    turn
      end
     
     if won? {|winner| winner == "X" || winner == "O"}
