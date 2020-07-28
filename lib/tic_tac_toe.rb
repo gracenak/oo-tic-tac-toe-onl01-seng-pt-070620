@@ -106,7 +106,6 @@ end
  
   def play(board)
     until over?(board)
-    @board
   end
     
     if won?(board) {|winner| winner == "X" || winner == "O"}
