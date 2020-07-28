@@ -110,7 +110,7 @@ end
       puts "Congratulations #{winner}!"
     elsif draw? 
       puts "Cat's Game!"
-    draw
+    draw?
     end
   end
 end
