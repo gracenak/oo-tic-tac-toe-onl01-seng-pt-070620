@@ -106,11 +106,12 @@ end
  
   def play(board)
     until over?(board)
+    
   end
     
-    if won?(board) {|winner| winner == "X" || winner == "O"}
+    if won? {|winner| winner == "X" || winner == "O"}
       puts "Congratulations #{winner}!"
-    elsif draw?(board)
+    elsif draw?
       puts "Cat's Game!"
     draw?
     end
