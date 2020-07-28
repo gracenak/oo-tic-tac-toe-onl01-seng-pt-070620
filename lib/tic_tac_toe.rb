@@ -105,7 +105,8 @@ end
     
  
   def play
-    over?
+    puts user_input
+    game.over? 
     if won? {|winner| winner == "X" || winner == "O"}
       puts "Congratulations #{winner}!"
     elsif draw? 
