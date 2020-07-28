@@ -2,10 +2,12 @@
 require 'pry'
 class TicTacToe
 
+attr_accessor :play
+
 game = []
 
   def initialize(play)
-    @play = play
+    @play
   end
 end
 
