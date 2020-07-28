@@ -108,7 +108,7 @@ end
     over?
     if won? {|winner| winner == "X" || winner == "O"}
       puts "Congratulations #{winner}!"
-    elsif draw? {|players| players == "X" && "O"}
+    elsif draw? 
       puts "Cat's Game!"
     draw
     end
