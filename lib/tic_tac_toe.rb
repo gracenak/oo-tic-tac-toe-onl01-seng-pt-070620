@@ -112,7 +112,6 @@ end
       puts "Congratulations #{winner}!"
     elsif draw? {|players| players == "X" && "O"}
       puts "Cat's Game!"
-    end
     draw
   end
 end
