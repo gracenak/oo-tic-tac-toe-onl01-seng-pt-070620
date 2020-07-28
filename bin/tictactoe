@@ -4,6 +4,7 @@ class TicTacToe
 def initialize(play)
 @play = play
 end
+end
 
 
 
