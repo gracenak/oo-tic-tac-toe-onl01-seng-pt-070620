@@ -104,8 +104,8 @@ end
   end
     
  
-  def play(board)
-    until over?(board)
+  def play
+    until over?
     
   end
     
