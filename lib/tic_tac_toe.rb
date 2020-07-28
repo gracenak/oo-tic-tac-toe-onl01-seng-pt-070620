@@ -113,6 +113,7 @@ end
     elsif draw? {|players| players == "X" && "O"}
       puts "Cat's Game!"
     draw
+    end
   end
 end
 
