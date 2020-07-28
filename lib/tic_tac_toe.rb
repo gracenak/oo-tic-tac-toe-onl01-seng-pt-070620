@@ -106,8 +106,7 @@ end
  
   def play
     until over?
-    
-  end
+     end
     
     if won? {|winner| winner == "X" || winner == "O"}
       puts "Congratulations #{winner}!"
