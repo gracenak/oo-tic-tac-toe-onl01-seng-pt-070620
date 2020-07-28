@@ -105,9 +105,7 @@ end
     
  
   def play
-    game = self.new
-    
-    game.over? {|turn|}
+    over?
     if won? {|winner| winner == "X" || winner == "O"}
       puts "Congratulations #{winner}!"
     elsif draw? {|players| players == "X" && "O"}
