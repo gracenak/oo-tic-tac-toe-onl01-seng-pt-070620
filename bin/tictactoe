@@ -1,9 +1,12 @@
 #!/usr/bin/env ruby
 require 'pry'
 class TicTacToe
-def initialize(play)
-@play = play
-end
+
+game = []
+
+  def initialize(play)
+    @play = play
+  end
 end
 
 
