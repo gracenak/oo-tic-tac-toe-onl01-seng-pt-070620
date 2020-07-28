@@ -6,7 +6,7 @@ attr_accessor :play
 
 game = []
 
-  def initialize(play)
+  def initialize
     @play
   end
 end
