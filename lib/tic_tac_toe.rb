@@ -105,6 +105,7 @@ end
     
  
   def play
+    user_input = gets.chomp
     over?
     if won? {|winner| winner == "X" || winner == "O"}
       puts "Congratulations #{winner}!"
