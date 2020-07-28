@@ -1,15 +1,10 @@
 #!/usr/bin/env ruby
 require 'pry'
-class TicTacToe
 
-attr_accessor :play
+game = TicTacToe.new
+game.play
 
-game = []
 
-  def initialize
-    @play
-  end
-end
 
 
 
