@@ -105,13 +105,12 @@ end
     
  
   def play
-    
-    current_winner = player
     self.over? {|turn| turn_count}
     if won? {|winner| winner == "X" || winner == "O"}
       puts "Congratulations #{winner}!"
     elsif draw? {|players| players == "X" && "O"}
       puts "Cat's Game!"
+    end
     end 
     draw
   end
