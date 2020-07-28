@@ -104,8 +104,9 @@ end
   end
     
  
-  def play
-    over?
+  def play(board)
+    until over?(board)
+    
     if won? {|winner| winner == "X" || winner == "O"}
       puts "Congratulations #{winner}!"
     elsif draw? {|turn|}
