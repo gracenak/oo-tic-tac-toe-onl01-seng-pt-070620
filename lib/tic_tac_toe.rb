@@ -112,6 +112,7 @@ end
       puts "Cat's Game!"
     draw?
     end
+    play
   end
 end
 
